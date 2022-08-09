@@ -13,4 +13,5 @@ Usage: test1 -c NTHREADS -f FILENAME -m
     If unspecified, the test uses one thread per the available CPU.
   -f FILENAME - the file name to read the data from.
   -m - measure the size threshold.
+  -s - use single threaded code.
 ```
