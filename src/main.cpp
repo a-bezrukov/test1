@@ -10,8 +10,6 @@
 int main (int paramc, char * const * paramv) {
     params_t const params = get_params(paramc, paramv);
 
-    std::cout << "Threads to be used: " << params.ncpu << std::endl;
-
     if(params.do_comparison) { // Measure the threshold
         using std::chrono::high_resolution_clock;
 
